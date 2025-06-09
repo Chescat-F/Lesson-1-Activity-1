@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Cascading Effect</title>
+  <style>
+
+    @keyframes cascade{
+    0% {background-image: linear-gradient(pink, red, silver, aqua);}
+    10% {background-image: linear-gradient(pink, red, silver);}
+    20% {background-image: linear-gradient(aqua, pink, red, silver);}
+    30% {background-image: linear-gradient(aqua, pink, red);}
+    50% {background-image: linear-gradient(silver, aqua, pink, red);}
+    60% {background-image: linear-gradient(silver, aqua, pink);}
+    75% {background-image: linear-gradient(red, silver, aqua, pink);}
+    85% {background-image: linear-gradient(red, silver, aqua);}
+    90% {background-image: linear-gradient(pink, red, silver, aqua);}
+    }
+    div{
+      width:750px;
+      height:400px;
+      background-image: linear gradient(red, pink, silver, aqua);
+      animation-name: cascade;
+     animation-duration: 10s;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <h1>Wow, this is really cool!</h1>
+  </div>
+</body>
+
+</html>
