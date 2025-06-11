@@ -1,0 +1,31 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:darkslateblue;
+    color:azure;    
+}
+h1{color:silver;}
+a{color:lightgoldenrodyellow;
+text-decoration:none;}
+
+a:hover{color:lightseagreen;}
+ul>li{font-weight:bold;}
+h1+p{background-color:purple;
+padding:15px;
+border-radius:10px;
+}
+
+ul li:hover{color:lightpink;}
+ul li:nth-child(3){
+    background-color:darkslategray;
+}
+p:not(:first-of-type){
+    text-decoration:underline;
+}
+ul li::before{
+    content:"🌌";
+}
+a::after{content:"🚀";}
+p::first-letter{
+    font-size:400%;
+    color:aquamarine;
+}
