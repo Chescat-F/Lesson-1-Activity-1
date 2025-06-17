@@ -1,31 +1,48 @@
-body{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color:darkslateblue;
-    color:azure;    
-}
-h1{color:silver;}
-a{color:lightgoldenrodyellow;
-text-decoration:none;}
+   html{
+                font-size:20px;
+                text-align:center;
+                background-color: darkslategray;
+                font-family: Arial, Helvetica, sans-serif;
+                color:cadetblue;
+            }
+input[type="text"]{
+                position:absolute;
+                top:4px;
+                right:30px;
+                width:100px;
+                border:2px solid seagreen;}
+            
+         h1,h2{
+                color:skyblue;
+                font-family:'Times New Roman', Times, serif;
+                text-decoration: overline underline;
+                text-shadow: 3px 2px 1px slateblue;
+            }
+            p{
+                text-indent: 10%;
+                text-transform:lowercase;
+            }
 
-a:hover{color:lightseagreen;}
-ul>li{font-weight:bold;}
-h1+p{background-color:purple;
-padding:15px;
-border-radius:10px;
-}
+            p::first-letter{
+                font-size: 150%;
+                font-family: 'Times New Roman', Times, serif;
+                color:darkcyan;
+            }
+            #lastpara{
+                background-color:mediumslateblue;
+                color:darkmagenta;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                box-shadow: 7px 7px 5px blueviolet;
+            }
+            ul>li{
+    color:turquoise;
+            }
 
-ul li:hover{color:lightpink;}
-ul li:nth-child(3){
-    background-color:darkslategray;
-}
-p:not(:first-of-type){
-    text-decoration:underline;
-}
-ul li::before{
-    content:"🌌";
-}
-a::after{content:"🚀";}
-p::first-letter{
-    font-size:400%;
-    color:aquamarine;
-}
+            li:nth-child(2){
+                color:darkmagenta;
+                background-color:slateblue;
+            }
+a{color:turquoise;}
+    a:hover{
+        color:seashell;
+    }
