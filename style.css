@@ -13,11 +13,17 @@ input[type="text"]{
                 border:2px solid seagreen;}
             
          h1,h2{
-                color:skyblue;
+                color:lightblue;
                 font-family:'Times New Roman', Times, serif;
                 text-decoration: overline underline;
-                text-shadow: 3px 2px 1px slateblue;
+                text-shadow: 4px 3px 3px slateblue;
             }
+             .box{
+            background-color:darkslateblue;
+            padding: 10px;
+            border:3px;
+            margin:4px;}
+          
             p{
                 text-indent: 10%;
                 text-transform:lowercase;
@@ -26,23 +32,26 @@ input[type="text"]{
             p::first-letter{
                 font-size: 150%;
                 font-family: 'Times New Roman', Times, serif;
-                color:darkcyan;
+                color:turquoise;
             }
             #lastpara{
                 background-color:mediumslateblue;
-                color:darkmagenta;
+                color:paleturquoise;
                 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-                box-shadow: 7px 7px 5px blueviolet;
+                box-shadow: 7px 7px 5px cadetblue;
             }
             ul>li{
-    color:turquoise;
+    color:lavender;
             }
 
             li:nth-child(2){
-                color:darkmagenta;
+                color:paleturquoise;
                 background-color:slateblue;
             }
-a{color:turquoise;}
+            li:nth-child(3){
+                background-color: darkslateblue;
+            }
+a{color:lightgreen;}
     a:hover{
-        color:seashell;
+        color:lightskyblue;
     }
