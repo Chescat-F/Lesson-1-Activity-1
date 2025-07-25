@@ -1,0 +1,14 @@
+li{
+    float:left;
+}
+
+a{
+    display:block;
+    padding:10px;
+    color:white;
+    background-color:orangered;
+}
+li a:hover{
+    background-color:brown;
+    color:white;
+}
