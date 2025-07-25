@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS Methods</title>
+    </head>
+    <body>
+        <p id="date"></p>
+    <button onclick="functionB(1,0)">5 Random Numbers</button>
+    <button onclick="functionB(1,1)">1 Integer</button><br>
+
+        <script>
+            document.getElementById("date").innerHTML = (Date());
+
+            function functionB(x,y){
+               var b= x+y
+    switch(b) {
+        case b=1:
+          var i;
+            for (i=0; i<5; i++){
+             document.write("<br>"+Math.random());}
+        case b=2: 
+           var value = Math.random() * b + 0.7;
+           document.write (Math.floor(value));
+            }
+        }
+        </script>
+        </body>
+        </html>
